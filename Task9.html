@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-9</title>
+    <style>
+      #sidenav a {
+        position: absolute;
+        padding: 15px;
+        left: -80px;
+        transition: 0.3s;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+      }
+      #sidenav a:hover {
+        left: 0;
+      }
+      #About {
+        top: 20px;
+        background-color: #04aa6d;
+      }
+
+      #Blog {
+        top: 80px;
+        background-color: #2196f3;
+      }
+
+      #Projects {
+        top: 140px;
+        background-color: #f44336;
+      }
+
+      #Contact {
+        top: 200px;
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sidenav" class="sidenav">
+      <a href="#" id="About">About</a>
+      <a href="#" id="Blog">Blog</a>
+      <a href="#" id="Projects">Projects</a>
+      <a href="#" id="Contact">Contact</a>
+    </div>
+    <div style="margin-left: 80px">
+      <h1>Hoverable Sidenav Buttons</h1>
+      <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+  </body>
+</html>
